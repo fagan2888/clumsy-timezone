@@ -14,7 +14,9 @@ Useful for:
 
 Usage
 ======
+```
 clumsy = require('./clumsy-timezone.js')
 tzname = clumsy.getTimezoneName(-360)
--> "America/Swift_Current"
+  -> "America/Swift_Current"
 process.env.TZ = tzname // hack-tastic
+```
